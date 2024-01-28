@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game5Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".Game5Activity"
+    android:background="#e6d7ff">
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/answerButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionTextView"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:onClick="submitAnswer" />
+
+    <Button
+        android:id="@+id/answerButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answerButton1"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:onClick="submitAnswer" />
+
+    <Button
+        android:id="@+id/answerButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answerButton2"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:onClick="submitAnswer" />
+
+    <Button
+        android:id="@+id/answerButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answerButton3"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:onClick="submitAnswer" />
+
+
+    <Button
+        android:id="@+id/showMultiplicationTableButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answerButton4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Multiplication Table"
+        android:textSize="18sp"
+        android:onClick="showMultiplicationTable" />
+
+</RelativeLayout>

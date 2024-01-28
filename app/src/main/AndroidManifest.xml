@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Kidsapp"
+        tools:targetApi="31">
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Game8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Game7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MultiplicationTableActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnMonthsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnDaysActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnSeasonsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Game6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Game5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Game4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Game3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Game2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Game1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

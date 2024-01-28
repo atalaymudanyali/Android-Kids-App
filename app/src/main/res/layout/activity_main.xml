@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#e6d7ff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_game1"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:onClick="startGame"
+                android:src="@drawable/game1_image" />
+
+            <ImageView
+                android:id="@+id/image_game2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:onClick="startGame"
+                android:src="@drawable/game2_image" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_game3"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:onClick="startGame"
+                android:src="@drawable/game3_image" />
+
+            <ImageView
+                android:id="@+id/image_game4"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:onClick="startGame"
+                android:src="@drawable/game4_image" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_game5"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:onClick="startGame"
+                android:src="@drawable/game5_image" />
+
+            <ImageView
+                android:id="@+id/image_game6"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:onClick="startGame"
+                android:src="@drawable/game6_image" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_game7"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:onClick="startGame"
+                android:src="@drawable/game7_image" />
+
+            <ImageView
+                android:id="@+id/image_game8"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:onClick="startGame"
+                android:src="@drawable/game"
+                android:visibility="invisible"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
