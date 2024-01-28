@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">kidsapp</string>
+    <string name="helloworld">HelloWorld</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+    <string name="check_time">Check Time</string>
+    <string name="user_turn_text">Your turn</string>
+    <string name="sequence_correct_text">Correct! Starting next sequence...</string>
+    <string name="sequence_incorrect_text">Incorrect! Starting new game...</string>
+    <string name="sequence_text">Sequence: %1$d</string>
+    <string name="watch_closely">Watch Closely</string>
+    <string name="your_turn">Your Turn</string>
+    <string name="correct">Correct</string>
+    <string name="wrong">Wrong</string>
+    <string name="your_turn_reverse" />
+    <string name="write_sequence_reverse">Write the sequence in reverse order</string>
+
+
+    <string-array name="clock_instructions">
+        <item>Read the hour hand.</item>
+        <item>Read the minute hand.</item>
+        <item>Combine the hour and minute to tell the time.</item>
+    </string-array>
+    <string-array name="days_of_week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+</resources>
